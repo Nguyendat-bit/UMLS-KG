@@ -2,7 +2,7 @@
 ## Overview
 On this repo, you can load UMLS knowledge graph and Visualize with Neo4j and you can use Neo4j python driver to query nodes or relationships what you want.
 
-First, you need install UMLS dataset and load it into mysql.
+First, you need to install UMLS dataset and load it into mysql.
 <p><img src= 'UMLS and Neo4j/images/visual.png'></p>
 
 ## Usage
@@ -52,7 +52,7 @@ For example, I will query nodes that have relationship with `CUI` C0000039.
 <img src= 'UMLS and Neo4j/images/relation.png'>
 
 ### Using Neo4j python driver to query database
-First you need install neo4j package:
+First you need to install neo4j package:
 ```
 pip install neo4j
 ```
